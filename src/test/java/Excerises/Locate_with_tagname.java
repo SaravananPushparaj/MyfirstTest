@@ -14,7 +14,7 @@ public class Locate_with_tagname {
 		WebDriver driver =  new FirefoxDriver();
 		
 		//type url www.google.com
-		driver.get("http://google");
+		driver.get("http://google.com");
 		//find all the text which has a link using Tagname
 		List<WebElement> elements = driver.findElements(By.tagName("a"));
 		int size = elements.size();
